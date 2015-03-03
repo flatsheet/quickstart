@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flatsheet": "^0.6.0",
+    "flatsheet": "^0.6.1",
     "response": "git://github.com/mikeal/response"
   }
 }
