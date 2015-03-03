@@ -6,7 +6,7 @@ var server = require('flatsheet')({
     url: 'http://demo.flatsheet.io',
     contact: 'Seth Vincent'
   },
-  db: __dirname + '/data/db'
+  db: __dirname + '/data'
 });
 
 server.route('/', function (req, res) {
@@ -23,6 +23,6 @@ server.route('/', function (req, res) {
   }
 });
 
-server.listen(80, function () {
+server.listen((process.env.PORT || 3333), function () {
   console.log('server started at 127.0.0.1:' + (process.env.PORT || 3333));
 });
