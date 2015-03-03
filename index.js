@@ -1,10 +1,11 @@
 var response = require('response');
+
 var server = require('flatsheet')({
   site: {
-    title: 'flatsheet demo',
-    email: 'sethvincent@gmail.com',
-    url: 'http://demo.flatsheet.io',
-    contact: 'Seth Vincent'
+    title: 'flatsheet',
+    email: 'you@example.com',
+    url: 'http://127.0.0.1', // include port here if not at port 80
+    contact: 'flatsheet admin'
   },
   db: __dirname + '/data'
 });
