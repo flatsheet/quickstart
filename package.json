@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "flatsheet": "^0.6.3",
+    "flatsheet": "^0.7.0",
     "response": "git://github.com/mikeal/response"
   }
 }
